@@ -1,45 +1,46 @@
-<!doctype html>
+﻿<!doctype html>
 <html lang="ru">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Админ-панель Nexus</title>
-    <meta name="description" content="Админ-панель Nexus: партнёры, ценовые группы, остатки, заявки и импорт Excel." />
-    <link rel="stylesheet" href="styles.css" />
+    <title>РђРґРјРёРЅ-РїР°РЅРµР»СЊ Nexus</title>
+    <meta name="description" content="РђРґРјРёРЅ-РїР°РЅРµР»СЊ Nexus: РїР°СЂС‚РЅС‘СЂС‹, С†РµРЅРѕРІС‹Рµ РіСЂСѓРїРїС‹, РѕСЃС‚Р°С‚РєРё, Р·Р°СЏРІРєРё Рё РёРјРїРѕСЂС‚ Excel." />
+    <link rel="stylesheet" href="styles.css?v=20260527" />
   </head>
   <body>
     <header class="site-header" id="top">
       <a class="brand" href="index.html"><span class="brand-mark">N</span><span>Nexus</span></a>
-      <button class="icon-button menu-toggle" type="button" aria-label="Открыть меню" aria-expanded="false"><span></span><span></span><span></span></button>
+      <button class="icon-button menu-toggle" type="button" aria-label="РћС‚РєСЂС‹С‚СЊ РјРµРЅСЋ" aria-expanded="false"><span></span><span></span><span></span></button>
       <nav class="main-nav">
-        <a href="catalog.html">Каталог</a><a href="about.html">О бренде</a><a href="projects.html">Проекты</a><a href="certificates.html">Документы</a><a href="partners.html">Партнёрам</a><a href="contacts.html">Контакты</a>
+        <a href="catalog.html">РљР°С‚Р°Р»РѕРі</a><a href="about.html">Рћ Р±СЂРµРЅРґРµ</a><a href="projects.html">РџСЂРѕРµРєС‚С‹</a><a href="certificates.html">Р”РѕРєСѓРјРµРЅС‚С‹</a><a href="partners.html">РџР°СЂС‚РЅС‘СЂР°Рј</a><a href="contacts.html">РљРѕРЅС‚Р°РєС‚С‹</a>
       </nav>
-      <a class="header-action" href="request.html">Получить КП <span class="cart-count">0</span></a>
+      <a class="header-action" href="request.html">РџРѕР»СѓС‡РёС‚СЊ РљРџ <span class="cart-count">0</span></a>
     </header>
     <main>
       <section class="page-hero">
-        <p class="eyebrow">Админ-панель</p>
-        <h1>Партнёры, цены и остатки Nexus</h1>
-        <p>Администратор подтверждает партнёров, назначает ценовые группы и контролирует закрытые коммерческие данные.</p>
+        <p class="eyebrow">РђРґРјРёРЅ-РїР°РЅРµР»СЊ</p>
+        <h1>РџР°СЂС‚РЅС‘СЂС‹, С†РµРЅС‹ Рё РѕСЃС‚Р°С‚РєРё Nexus</h1>
+        <p>РђРґРјРёРЅРёСЃС‚СЂР°С‚РѕСЂ РїРѕРґС‚РІРµСЂР¶РґР°РµС‚ РїР°СЂС‚РЅС‘СЂРѕРІ, РЅР°Р·РЅР°С‡Р°РµС‚ С†РµРЅРѕРІС‹Рµ РіСЂСѓРїРїС‹ Рё РєРѕРЅС‚СЂРѕР»РёСЂСѓРµС‚ Р·Р°РєСЂС‹С‚С‹Рµ РєРѕРјРјРµСЂС‡РµСЃРєРёРµ РґР°РЅРЅС‹Рµ.</p>
       </section>
       <section class="section admin-section">
         <div class="section-heading row-heading">
-          <div><p class="eyebrow">Коммерческий доступ</p><h2>Управление B2B-функциями</h2></div>
+          <div><p class="eyebrow">РљРѕРјРјРµСЂС‡РµСЃРєРёР№ РґРѕСЃС‚СѓРї</p><h2>РЈРїСЂР°РІР»РµРЅРёРµ B2B-С„СѓРЅРєС†РёСЏРјРё</h2></div>
           <span class="admin-badge">Server MVP</span>
         </div>
         <div id="adminWorkspace">
-          <div class="empty-state">Загружаем админ-данные...</div>
+          <div class="empty-state">Р—Р°РіСЂСѓР¶Р°РµРј Р°РґРјРёРЅ-РґР°РЅРЅС‹Рµ...</div>
         </div>
       </section>
       <section class="section admin-grid">
-        <article><h3>Товары</h3><p id="adminProductsCount">38 позиций</p><ul><li>публичные поля</li><li>приватные цены</li><li>остатки на сервере</li></ul></article>
-        <article><h3>Ценовые группы</h3><p>standard, dealer, project, VIP. Партнёр видит только назначенную цену.</p></article>
-        <article><h3>Заявки</h3><p id="adminLeadsCount">0 заявок</p><ul><li>цена на момент заявки</li><li>остаток на момент заявки</li><li>статус обработки</li></ul></article>
+        <article><h3>РўРѕРІР°СЂС‹</h3><p id="adminProductsCount">38 РїРѕР·РёС†РёР№</p><ul><li>РїСѓР±Р»РёС‡РЅС‹Рµ РїРѕР»СЏ</li><li>РїСЂРёРІР°С‚РЅС‹Рµ С†РµРЅС‹</li><li>РѕСЃС‚Р°С‚РєРё РЅР° СЃРµСЂРІРµСЂРµ</li></ul></article>
+        <article><h3>Р¦РµРЅРѕРІС‹Рµ РіСЂСѓРїРїС‹</h3><p>standard, dealer, project, VIP. РџР°СЂС‚РЅС‘СЂ РІРёРґРёС‚ С‚РѕР»СЊРєРѕ РЅР°Р·РЅР°С‡РµРЅРЅСѓСЋ С†РµРЅСѓ.</p></article>
+        <article><h3>Р—Р°СЏРІРєРё</h3><p id="adminLeadsCount">0 Р·Р°СЏРІРѕРє</p><ul><li>С†РµРЅР° РЅР° РјРѕРјРµРЅС‚ Р·Р°СЏРІРєРё</li><li>РѕСЃС‚Р°С‚РѕРє РЅР° РјРѕРјРµРЅС‚ Р·Р°СЏРІРєРё</li><li>СЃС‚Р°С‚СѓСЃ РѕР±СЂР°Р±РѕС‚РєРё</li></ul></article>
       </section>
     </main>
     <div class="toast" id="toast" role="status" aria-live="polite"></div>
     <a class="whatsapp-float" href="https://wa.me/77000000000">WA</a>
-    <footer class="site-footer"><p>Nexus © 2026. Админ-панель.</p><a href="catalog.html">Каталог</a></footer>
-    <script src="data/products.js"></script><script src="app.js"></script>
+    <footer class="site-footer"><p>Nexus В© 2026. РђРґРјРёРЅ-РїР°РЅРµР»СЊ.</p><a href="catalog.html">РљР°С‚Р°Р»РѕРі</a></footer>
+    <script src="data/products.js?v=20260527"></script><script src="app.js?v=20260527"></script>
   </body>
 </html>
+
