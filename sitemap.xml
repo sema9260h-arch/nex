@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Заявка на КП - Nexus</title>
+    <meta name="description" content="Корзина-заявка Nexus для запроса коммерческого предложения по позициям каталога." />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header" id="top">
+      <a class="brand" href="index.html" aria-label="Nexus"><span class="brand-mark">N</span><span>Nexus</span></a>
+      <button class="icon-button menu-toggle" type="button" aria-label="Открыть меню" aria-expanded="false"><span></span><span></span><span></span></button>
+      <nav class="main-nav" aria-label="Основная навигация">
+        <a href="catalog.html">Каталог</a>
+        <a href="about.html">О бренде</a>
+        <a href="projects.html">Проекты</a>
+        <a href="certificates.html">Документы</a>
+        <a href="partners.html">Партнёрам</a>
+        <a href="contacts.html">Контакты</a>
+      </nav>
+      <a class="header-action" href="request.html">Получить КП <span class="cart-count">0</span></a>
+    </header>
+
+    <main>
+      <section class="page-hero">
+        <p class="eyebrow">Корзина-заявка</p>
+        <h1>Запрос коммерческого предложения Nexus</h1>
+        <p>Добавьте позиции из каталога, укажите количество и оставьте контактные данные.</p>
+      </section>
+
+      <section class="section request-section" aria-labelledby="request-title">
+        <div class="section-heading">
+          <p class="eyebrow">Состав КП</p>
+          <h2 id="request-title">Позиции и контактные данные</h2>
+        </div>
+        <div class="request-layout">
+          <div class="request-cart" aria-live="polite">
+            <div class="request-cart-head">
+              <h3>Состав заявки</h3>
+              <button class="text-button" type="button" id="clearCartButton">Очистить</button>
+            </div>
+            <div id="cartItems" class="cart-items"></div>
+            <a class="text-link cart-catalog-link" href="catalog.html">Добавить товары из каталога</a>
+          </div>
+          <form class="lead-form" id="leadForm">
+            <label>Имя *<input name="name" required autocomplete="name" /></label>
+            <label>Телефон *<input name="phone" required autocomplete="tel" /></label>
+            <label>Компания *<input name="company" required autocomplete="organization" /></label>
+            <label>Город *<input name="city" required autocomplete="address-level2" /></label>
+            <label>Email<input name="email" type="email" autocomplete="email" /></label>
+            <label>БИН<input name="bin" inputmode="numeric" /></label>
+            <label class="span-2">Комментарий<textarea name="comment" rows="4" placeholder="Опишите объект, спецификацию или требования к серии Nexus"></textarea></label>
+            <button class="button button-primary span-2" type="submit">Отправить заявку</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+    <a class="whatsapp-float" href="https://wa.me/77000000000" aria-label="Задать вопрос в WhatsApp">WA</a>
+    <footer class="site-footer"><p>Nexus © 2026. Бренд СКС и инженерной инфраструктуры.</p><a href="catalog.html">Каталог</a></footer>
+
+    <script src="data/products.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>

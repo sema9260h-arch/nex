@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Контакты Nexus</title>
+    <meta name="description" content="Контакты бренда Nexus: телефон, WhatsApp, email и форма обратной связи." />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header" id="top"><a class="brand" href="index.html"><span class="brand-mark">N</span><span>Nexus</span></a><button class="icon-button menu-toggle" type="button" aria-label="Открыть меню" aria-expanded="false"><span></span><span></span><span></span></button><nav class="main-nav"><a href="catalog.html">Каталог</a><a href="about.html">О бренде</a><a href="projects.html">Проекты</a><a href="certificates.html">Документы</a><a href="partners.html">Партнёрам</a><a href="contacts.html">Контакты</a></nav><a class="header-action" href="request.html">Получить КП <span class="cart-count">0</span></a></header>
+    <main>
+      <section class="page-hero"><p class="eyebrow">Контакты</p><h1>Связаться с Nexus</h1><p>Запросите КП, документы, характеристики или консультацию по продуктовой линейке Nexus.</p></section>
+      <section class="section contacts">
+        <div>
+          <p class="eyebrow">Контактные данные</p>
+          <h2>Nexus</h2>
+          <dl class="contact-list">
+            <div><dt>Телефон</dt><dd><a href="tel:+77000000000">+7 700 000 00 00</a></dd></div>
+            <div><dt>WhatsApp</dt><dd><a href="https://wa.me/77000000000">Написать в WhatsApp</a></dd></div>
+            <div><dt>Email</dt><dd><a href="mailto:sales@nexus.kz">sales@nexus.kz</a></dd></div>
+            <div><dt>Регион</dt><dd>Казахстан</dd></div>
+          </dl>
+        </div>
+        <form class="mini-form contact-form" id="contactForm">
+          <input name="name" placeholder="Имя" required />
+          <input name="phone" placeholder="Телефон" required />
+          <input name="company" placeholder="Компания" />
+          <textarea name="comment" rows="4" placeholder="Комментарий"></textarea>
+          <button class="button button-primary" type="submit">Отправить</button>
+        </form>
+      </section>
+    </main>
+    <div class="toast" id="toast" role="status" aria-live="polite"></div><a class="whatsapp-float" href="https://wa.me/77000000000">WA</a>
+    <footer class="site-footer"><p>Nexus © 2026. Бренд СКС и инженерной инфраструктуры.</p><a href="request.html">Получить КП</a></footer>
+    <script src="data/products.js"></script><script src="app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Админ-панель Nexus</title>
+    <meta name="description" content="Админ-панель Nexus: партнёры, ценовые группы, остатки, заявки и импорт Excel." />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header" id="top">
+      <a class="brand" href="index.html"><span class="brand-mark">N</span><span>Nexus</span></a>
+      <button class="icon-button menu-toggle" type="button" aria-label="Открыть меню" aria-expanded="false"><span></span><span></span><span></span></button>
+      <nav class="main-nav">
+        <a href="catalog.html">Каталог</a><a href="about.html">О бренде</a><a href="projects.html">Проекты</a><a href="certificates.html">Документы</a><a href="partners.html">Партнёрам</a><a href="contacts.html">Контакты</a>
+      </nav>
+      <a class="header-action" href="request.html">Получить КП <span class="cart-count">0</span></a>
+    </header>
+    <main>
+      <section class="page-hero">
+        <p class="eyebrow">Админ-панель</p>
+        <h1>Партнёры, цены и остатки Nexus</h1>
+        <p>Администратор подтверждает партнёров, назначает ценовые группы и контролирует закрытые коммерческие данные.</p>
+      </section>
+      <section class="section admin-section">
+        <div class="section-heading row-heading">
+          <div><p class="eyebrow">Коммерческий доступ</p><h2>Управление B2B-функциями</h2></div>
+          <span class="admin-badge">Server MVP</span>
+        </div>
+        <div id="adminWorkspace">
+          <div class="empty-state">Загружаем админ-данные...</div>
+        </div>
+      </section>
+      <section class="section admin-grid">
+        <article><h3>Товары</h3><p id="adminProductsCount">38 позиций</p><ul><li>публичные поля</li><li>приватные цены</li><li>остатки на сервере</li></ul></article>
+        <article><h3>Ценовые группы</h3><p>standard, dealer, project, VIP. Партнёр видит только назначенную цену.</p></article>
+        <article><h3>Заявки</h3><p id="adminLeadsCount">0 заявок</p><ul><li>цена на момент заявки</li><li>остаток на момент заявки</li><li>статус обработки</li></ul></article>
+      </section>
+    </main>
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+    <a class="whatsapp-float" href="https://wa.me/77000000000">WA</a>
+    <footer class="site-footer"><p>Nexus © 2026. Админ-панель.</p><a href="catalog.html">Каталог</a></footer>
+    <script src="data/products.js"></script><script src="app.js"></script>
+  </body>
+</html>
