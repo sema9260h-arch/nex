@@ -1,0 +1,534 @@
+[
+  {
+    "article": "NX-SKS-001",
+    "quantity": 130,
+    "stock": {
+      "almaty": 84,
+      "astana": 46
+    },
+    "prices": {
+      "standard": 82000,
+      "dealer": 75440,
+      "project": 70520,
+      "vip": 65600
+    }
+  },
+  {
+    "article": "NX-SKS-002",
+    "quantity": 130,
+    "stock": {
+      "almaty": 84,
+      "astana": 46
+    },
+    "prices": {
+      "standard": 88000,
+      "dealer": 80960,
+      "project": 75680,
+      "vip": 70400
+    }
+  },
+  {
+    "article": "NX-SKS-003",
+    "quantity": 200,
+    "stock": {
+      "almaty": 130,
+      "astana": 70
+    },
+    "prices": {
+      "standard": 98000,
+      "dealer": 90160,
+      "project": 84280,
+      "vip": 78400
+    }
+  },
+  {
+    "article": "NX-SKS-004",
+    "quantity": 200,
+    "stock": {
+      "almaty": 130,
+      "astana": 70
+    },
+    "prices": {
+      "standard": 98000,
+      "dealer": 90160,
+      "project": 84280,
+      "vip": 78400
+    }
+  },
+  {
+    "article": "NX-SKS-005",
+    "quantity": 150,
+    "stock": {
+      "almaty": 97,
+      "astana": 53
+    },
+    "prices": {
+      "standard": 112000,
+      "dealer": 103040,
+      "project": 96320,
+      "vip": 89600
+    }
+  },
+  {
+    "article": "NX-SKS-006",
+    "quantity": 0,
+    "stock": {
+      "almaty": 0,
+      "astana": 0
+    },
+    "prices": {
+      "standard": 154000,
+      "dealer": 141680,
+      "project": 132440,
+      "vip": 123200
+    }
+  },
+  {
+    "article": "NX-SKS-007",
+    "quantity": 40,
+    "stock": {
+      "almaty": 26,
+      "astana": 14
+    },
+    "prices": {
+      "standard": 8400,
+      "dealer": 7728,
+      "project": 7224,
+      "vip": 6720
+    }
+  },
+  {
+    "article": "NX-SKS-008",
+    "quantity": 70,
+    "stock": {
+      "almaty": 45,
+      "astana": 25
+    },
+    "prices": {
+      "standard": 9200,
+      "dealer": 8464,
+      "project": 7912,
+      "vip": 7360
+    }
+  },
+  {
+    "article": "NX-SKS-009",
+    "quantity": 40,
+    "stock": {
+      "almaty": 26,
+      "astana": 14
+    },
+    "prices": {
+      "standard": 11200,
+      "dealer": 10304,
+      "project": 9632,
+      "vip": 8960
+    }
+  },
+  {
+    "article": "NX-SKS-010",
+    "quantity": 100,
+    "stock": {
+      "almaty": 65,
+      "astana": 35
+    },
+    "prices": {
+      "standard": 7600,
+      "dealer": 6992,
+      "project": 6536,
+      "vip": 6080
+    }
+  },
+  {
+    "article": "NX-SKS-011",
+    "quantity": 1500,
+    "stock": {
+      "almaty": 975,
+      "astana": 525
+    },
+    "prices": {
+      "standard": 1050,
+      "dealer": 966,
+      "project": 903,
+      "vip": 840
+    }
+  },
+  {
+    "article": "NX-SKS-012",
+    "quantity": 2000,
+    "stock": {
+      "almaty": 1300,
+      "astana": 700
+    },
+    "prices": {
+      "standard": 1350,
+      "dealer": 1242,
+      "project": 1161,
+      "vip": 1080
+    }
+  },
+  {
+    "article": "NX-SKS-013",
+    "quantity": 500,
+    "stock": {
+      "almaty": 325,
+      "astana": 175
+    },
+    "prices": {
+      "standard": 1350,
+      "dealer": 1242,
+      "project": 1161,
+      "vip": 1080
+    }
+  },
+  {
+    "article": "NX-SKS-014",
+    "quantity": 0,
+    "stock": {
+      "almaty": 0,
+      "astana": 0
+    },
+    "prices": {
+      "standard": 1850,
+      "dealer": 1702,
+      "project": 1591,
+      "vip": 1480
+    }
+  },
+  {
+    "article": "NX-SKS-015",
+    "quantity": 300,
+    "stock": {
+      "almaty": 195,
+      "astana": 105
+    },
+    "prices": {
+      "standard": 1050,
+      "dealer": 966,
+      "project": 903,
+      "vip": 840
+    }
+  },
+  {
+    "article": "NX-SKS-016",
+    "quantity": 600,
+    "stock": {
+      "almaty": 390,
+      "astana": 210
+    },
+    "prices": {
+      "standard": 1050,
+      "dealer": 966,
+      "project": 903,
+      "vip": 840
+    }
+  },
+  {
+    "article": "NX-SKS-017",
+    "quantity": 400,
+    "stock": {
+      "almaty": 260,
+      "astana": 140
+    },
+    "prices": {
+      "standard": 1050,
+      "dealer": 966,
+      "project": 903,
+      "vip": 840
+    }
+  },
+  {
+    "article": "NX-SKS-018",
+    "quantity": 300,
+    "stock": {
+      "almaty": 195,
+      "astana": 105
+    },
+    "prices": {
+      "standard": 1050,
+      "dealer": 966,
+      "project": 903,
+      "vip": 840
+    }
+  },
+  {
+    "article": "NX-SKS-019",
+    "quantity": 0,
+    "stock": {
+      "almaty": 0,
+      "astana": 0
+    },
+    "prices": {
+      "standard": 1050,
+      "dealer": 966,
+      "project": 903,
+      "vip": 840
+    }
+  },
+  {
+    "article": "NX-SKS-020",
+    "quantity": 40,
+    "stock": {
+      "almaty": 26,
+      "astana": 14
+    },
+    "prices": {
+      "standard": 2400,
+      "dealer": 2208,
+      "project": 2064,
+      "vip": 1920
+    }
+  },
+  {
+    "article": "NX-SKS-021",
+    "quantity": 0,
+    "stock": {
+      "almaty": 0,
+      "astana": 0
+    },
+    "prices": {
+      "standard": 2400,
+      "dealer": 2208,
+      "project": 2064,
+      "vip": 1920
+    }
+  },
+  {
+    "article": "NX-SKS-022",
+    "quantity": 0,
+    "stock": {
+      "almaty": 0,
+      "astana": 0
+    },
+    "prices": {
+      "standard": 7600,
+      "dealer": 6992,
+      "project": 6536,
+      "vip": 6080
+    }
+  },
+  {
+    "article": "NX-SKS-023",
+    "quantity": 0,
+    "stock": {
+      "almaty": 0,
+      "astana": 0
+    },
+    "prices": {
+      "standard": 2500,
+      "dealer": 2300,
+      "project": 2150,
+      "vip": 2000
+    }
+  },
+  {
+    "article": "NX-FLR-024",
+    "quantity": 200,
+    "stock": {
+      "almaty": 130,
+      "astana": 70
+    },
+    "prices": {
+      "standard": 17800,
+      "dealer": 16376,
+      "project": 15308,
+      "vip": 14240
+    }
+  },
+  {
+    "article": "NX-FLR-025",
+    "quantity": 200,
+    "stock": {
+      "almaty": 130,
+      "astana": 70
+    },
+    "prices": {
+      "standard": 17800,
+      "dealer": 16376,
+      "project": 15308,
+      "vip": 14240
+    }
+  },
+  {
+    "article": "NX-FLR-026",
+    "quantity": 200,
+    "stock": {
+      "almaty": 130,
+      "astana": 70
+    },
+    "prices": {
+      "standard": 17800,
+      "dealer": 16376,
+      "project": 15308,
+      "vip": 14240
+    }
+  },
+  {
+    "article": "NX-FLR-027",
+    "quantity": 0,
+    "stock": {
+      "almaty": 0,
+      "astana": 0
+    },
+    "prices": {
+      "standard": 17800,
+      "dealer": 16376,
+      "project": 15308,
+      "vip": 14240
+    }
+  },
+  {
+    "article": "NX-FLR-028",
+    "quantity": 100,
+    "stock": {
+      "almaty": 65,
+      "astana": 35
+    },
+    "prices": {
+      "standard": 28800,
+      "dealer": 26496,
+      "project": 24768,
+      "vip": 23040
+    }
+  },
+  {
+    "article": "NX-FLR-030",
+    "quantity": 1300,
+    "stock": {
+      "almaty": 845,
+      "astana": 455
+    },
+    "prices": {
+      "standard": 1050,
+      "dealer": 966,
+      "project": 903,
+      "vip": 840
+    }
+  },
+  {
+    "article": "NX-FLR-031",
+    "quantity": 400,
+    "stock": {
+      "almaty": 260,
+      "astana": 140
+    },
+    "prices": {
+      "standard": 520,
+      "dealer": 478,
+      "project": 447,
+      "vip": 416
+    }
+  },
+  {
+    "article": "NX-MOD-032",
+    "quantity": 800,
+    "stock": {
+      "almaty": 520,
+      "astana": 280
+    },
+    "prices": {
+      "standard": 1450,
+      "dealer": 1334,
+      "project": 1247,
+      "vip": 1160
+    }
+  },
+  {
+    "article": "NX-MOD-034",
+    "quantity": 500,
+    "stock": {
+      "almaty": 325,
+      "astana": 175
+    },
+    "prices": {
+      "standard": 1650,
+      "dealer": 1518,
+      "project": 1419,
+      "vip": 1320
+    }
+  },
+  {
+    "article": "NX-MOD-035",
+    "quantity": 1000,
+    "stock": {
+      "almaty": 650,
+      "astana": 350
+    },
+    "prices": {
+      "standard": 1050,
+      "dealer": 966,
+      "project": 903,
+      "vip": 840
+    }
+  },
+  {
+    "article": "NX-MOD-036",
+    "quantity": 1000,
+    "stock": {
+      "almaty": 650,
+      "astana": 350
+    },
+    "prices": {
+      "standard": 1350,
+      "dealer": 1242,
+      "project": 1161,
+      "vip": 1080
+    }
+  },
+  {
+    "article": "NX-MOD-037",
+    "quantity": 200,
+    "stock": {
+      "almaty": 130,
+      "astana": 70
+    },
+    "prices": {
+      "standard": 5200,
+      "dealer": 4784,
+      "project": 4472,
+      "vip": 4160
+    }
+  },
+  {
+    "article": "NX-MOD-038",
+    "quantity": 0,
+    "stock": {
+      "almaty": 0,
+      "astana": 0
+    },
+    "prices": {
+      "standard": 820,
+      "dealer": 754,
+      "project": 705,
+      "vip": 656
+    }
+  },
+  {
+    "article": "NX-MOD-039",
+    "quantity": 0,
+    "stock": {
+      "almaty": 0,
+      "astana": 0
+    },
+    "prices": {
+      "standard": 980,
+      "dealer": 902,
+      "project": 843,
+      "vip": 784
+    }
+  },
+  {
+    "article": "NX-MOD-040",
+    "quantity": 400,
+    "stock": {
+      "almaty": 260,
+      "astana": 140
+    },
+    "prices": {
+      "standard": 520,
+      "dealer": 478,
+      "project": 447,
+      "vip": 416
+    }
+  }
+]

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 420" role="img" aria-labelledby="title desc">
+  <title id="title">Лючки и напольные коробки</title>
+  <desc id="desc">Напольный лючок с модульными местами.</desc>
+  <rect width="560" height="420" rx="28" fill="#f5f8fb"/>
+  <path d="M100 285 280 105 462 285 280 360Z" fill="#d7e6f4"/>
+  <path d="M136 278 280 137 426 278 280 333Z" fill="#ffffff"/>
+  <path d="M164 268 280 158 398 268 280 310Z" fill="#19304a"/>
+  <rect x="248" y="200" width="64" height="44" rx="8" fill="#0b8cff"/>
+  <rect x="320" y="230" width="42" height="28" rx="7" fill="#12b6a6"/>
+  <rect x="198" y="230" width="42" height="28" rx="7" fill="#ffcf5a"/>
+  <path d="M105 285h357" stroke="#879eb6" stroke-width="8" stroke-linecap="round"/>
+  <path d="M168 312h226" stroke="#0b8cff" stroke-width="5" stroke-linecap="round" opacity=".42"/>
+</svg>

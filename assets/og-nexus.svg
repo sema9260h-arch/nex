@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="Nexus бренд СКС">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07111f"/>
+      <stop offset="1" stop-color="#0b5794"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#g)"/>
+  <rect x="86" y="88" width="92" height="92" rx="18" fill="#087df0"/>
+  <path d="M113 153V115h10l18 23v-23h10v38h-10l-18-23v23z" fill="#fff"/>
+  <text x="204" y="153" fill="#fff" font-family="Inter, Arial, sans-serif" font-size="58" font-weight="800">Nexus</text>
+  <text x="86" y="304" fill="#fff" font-family="Inter, Arial, sans-serif" font-size="70" font-weight="850">Бренд СКС и инженерной инфраструктуры</text>
+  <text x="90" y="380" fill="#c9d8e8" font-family="Inter, Arial, sans-serif" font-size="32">Каталог, партнёрские цены, остатки и заявки на КП</text>
+</svg>

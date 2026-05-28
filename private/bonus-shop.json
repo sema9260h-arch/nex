@@ -1,0 +1,90 @@
+[
+  {
+    "id": "bonus-free-delivery",
+    "title": "Бесплатная доставка по Казахстану",
+    "category": "delivery",
+    "description": "Компенсация доставки для следующего партнёрского заказа Nexus.",
+    "cost": 80000,
+    "availability": "По запросу",
+    "conditions": "Доступно при отсутствии просроченной задолженности.",
+    "active": true,
+    "createdAt": "2026-05-26T18:21:23.060Z"
+  },
+  {
+    "id": "bonus-priority-assembly",
+    "title": "Приоритетная сборка заказа",
+    "category": "services",
+    "description": "Передача заказа в ускоренную сборку после подтверждения менеджером.",
+    "cost": 50000,
+    "availability": "По запросу",
+    "conditions": "Срок зависит от наличия продукции на складе.",
+    "active": true,
+    "createdAt": "2026-05-26T18:21:23.071Z"
+  },
+  {
+    "id": "bonus-installer-training",
+    "title": "Обучение монтажников СКС",
+    "category": "training",
+    "description": "Техническая сессия по продуктовой линейке Nexus для команды партнёра.",
+    "cost": 180000,
+    "availability": "По расписанию",
+    "conditions": "Формат и дата согласуются с менеджером.",
+    "active": true,
+    "createdAt": "2026-05-26T18:21:23.072Z"
+  },
+  {
+    "id": "bonus-tool-kit",
+    "title": "Набор инструментов монтажника",
+    "category": "tools",
+    "description": "Практичный комплект для монтажных работ с кабелем и модулями.",
+    "cost": 250000,
+    "availability": "Ограничено",
+    "conditions": "Выдаётся после подтверждения списания.",
+    "active": true,
+    "createdAt": "2026-05-26T18:21:23.072Z"
+  },
+  {
+    "id": "bonus-merch",
+    "title": "Фирменный мерч Nexus",
+    "category": "merch",
+    "description": "Брендированные материалы для команды партнёра.",
+    "cost": 35000,
+    "availability": "В наличии",
+    "conditions": "Состав набора зависит от доступности.",
+    "active": true,
+    "createdAt": "2026-05-26T18:21:23.072Z"
+  },
+  {
+    "id": "bonus-doc-pack",
+    "title": "Пакет сертификатов и технических листов",
+    "category": "documents",
+    "description": "Подготовка расширенного комплекта документации под проект.",
+    "cost": 20000,
+    "availability": "Цифровой бонус",
+    "conditions": "Документы отправляются на email партнёра.",
+    "active": true,
+    "createdAt": "2026-05-26T18:21:23.072Z"
+  },
+  {
+    "id": "bonus-marketing-pack",
+    "title": "Маркетинговые материалы для дилера",
+    "category": "marketing",
+    "description": "Каталоги, презентации и продуктовые материалы Nexus для продаж.",
+    "cost": 60000,
+    "availability": "По запросу",
+    "conditions": "Для активных дилеров и проектных партнёров.",
+    "active": true,
+    "createdAt": "2026-05-26T18:21:23.072Z"
+  },
+  {
+    "id": "bonus-gift",
+    "title": "Подарок для партнёрской команды",
+    "category": "gifts",
+    "description": "Бонусный подарок, который менеджер подберёт под профиль партнёра.",
+    "cost": 120000,
+    "availability": "По запросу",
+    "conditions": "Ncoin не обмениваются на денежный эквивалент.",
+    "active": true,
+    "createdAt": "2026-05-26T18:21:23.072Z"
+  }
+]

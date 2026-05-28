@@ -483,7 +483,28 @@ async function handleAdminApi(req, res, url) {
 async function serveStatic(req, res, url) {
   let pathname = decodeURIComponent(url.pathname);
   if (pathname === "/") pathname = "/index.html";
-  if (pathname.includes("..") || pathname.startsWith("/private/")) {
+  const normalizedPathname = pathname.replace(/\\/g, "/").toLowerCase();
+  const blockedStatic = [
+    "/server.js",
+    "/package.json",
+    "/package-lock.json",
+    "/render.yaml",
+    "/deploy.md",
+    "/readme.md",
+    "/.env",
+    "/.env.example",
+    "/.gitignore",
+    "/server.err.log",
+    "/server.out.log",
+  ];
+  if (
+    pathname.includes("..") ||
+    normalizedPathname.startsWith("/private/") ||
+    normalizedPathname.startsWith("/tools/") ||
+    normalizedPathname.startsWith("/outputs/") ||
+    normalizedPathname.startsWith("/node_modules/") ||
+    blockedStatic.includes(normalizedPathname)
+  ) {
     res.writeHead(403, { "content-type": "text/plain; charset=utf-8" });
     res.end("Forbidden");
     return;

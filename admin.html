@@ -1,29 +1,67 @@
-{
-  "valueRate": 1,
-  "validityMonths": 12,
-  "accrualBase": "goods_without_vat_delivery_services",
-  "thresholds": [
-    {
-      "from": 0,
-      "to": 14999999,
-      "rate": 0.005
-    },
-    {
-      "from": 15000000,
-      "to": 24999999,
-      "rate": 0.01
-    },
-    {
-      "from": 25000000,
-      "to": null,
-      "rate": 0.015
-    }
-  ],
-  "restrictions": {
-    "onlyPaidOrders": true,
-    "cancelOnReturn": true,
-    "noCashExchange": true,
-    "nonTransferable": true,
-    "blockRedemptionOnOverdueDebt": true
-  }
-}
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Админ-панель Nexus - партнёры, заявки и Ncoin</title>
+    <meta name="description" content="Админ-панель Nexus для управления товарами, партнёрами, заявками, ценовыми группами, остатками и бонусами Ncoin." />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://nex-qdqs.onrender.com/admin.html" />
+    <meta property="og:title" content="Админ-панель Nexus - партнёры, заявки и Ncoin" />
+    <meta property="og:description" content="Админ-панель Nexus для управления товарами, партнёрами, заявками, ценовыми группами, остатками и бонусами Ncoin." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://nex-qdqs.onrender.com/admin.html" />
+    <meta property="og:image" content="https://nex-qdqs.onrender.com/assets/og-nexus.svg" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Админ-панель Nexus - партнёры, заявки и Ncoin" />
+    <meta name="twitter:description" content="Админ-панель Nexus для управления товарами, партнёрами, заявками, ценовыми группами, остатками и бонусами Ncoin." />
+    <meta name="twitter:image" content="https://nex-qdqs.onrender.com/assets/og-nexus.svg" />
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="favicon.svg" />
+    <link rel="stylesheet" href="styles.css?v=20260528" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Перейти к содержимому</a>
+    <header class="site-header" id="top">
+      <a class="brand" href="index.html" aria-label="Nexus - на главную"><span class="brand-mark" aria-hidden="true">N</span><span class="brand-text">Nexus</span></a>
+      <button class="icon-button menu-toggle" type="button" aria-label="Открыть меню" aria-expanded="false"><span></span><span></span><span></span></button>
+      <nav class="main-nav" aria-label="Основная навигация">
+        <a href="catalog.html">Каталог</a>
+        <a href="about.html">О бренде</a>
+        <a href="projects.html">Проекты</a>
+        <a href="certificates.html">Документы</a>
+        <a href="partners.html">Партнёрам</a>
+        <a href="bonus.html">Ncoin</a>
+        <a href="news.html">Статьи</a>
+        <a href="contacts.html">Контакты</a>
+      </nav>
+      <a class="header-action" href="request.html">Получить КП <span class="cart-count" aria-label="товаров в КП: 0"></span></a>
+    </header>
+    <main id="main-content">
+      <section class="page-hero">
+        <p class="eyebrow">Админ-панель</p>
+        <h1>Партнёры, цены и остатки Nexus</h1>
+        <p>Администратор подтверждает партнёров, назначает ценовые группы и контролирует закрытые коммерческие данные.</p>
+      </section>
+      <section class="section admin-section">
+        <div class="section-heading row-heading">
+          <div><p class="eyebrow">Коммерческий доступ</p><h2>Управление B2B-функциями</h2></div>
+          <span class="admin-badge">Server MVP</span>
+        </div>
+        <div id="adminWorkspace">
+          <div class="empty-state">Загружаем админ-данные...</div>
+        </div>
+      </section>
+      <section class="section admin-grid">
+        <article><h3>Товары</h3><p id="adminProductsCount">38 позиций</p><ul><li>публичные поля</li><li>приватные цены</li><li>остатки на сервере</li></ul></article>
+        <article><h3>Ценовые группы</h3><p>standard, dealer, project, VIP. Партнёр видит только назначенную цену.</p></article>
+        <article><h3>Заявки</h3><p id="adminLeadsCount">0 заявок</p><ul><li>цена на момент заявки</li><li>остаток на момент заявки</li><li>статус обработки</li></ul></article>
+      </section>
+    </main>
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+    <a class="whatsapp-float" href="https://wa.me/77011234567" target="_blank" rel="noopener" aria-label="Написать в WhatsApp">WA</a>
+    <footer class="site-footer"><p>Nexus © 2026. Админ-панель.</p><a href="catalog.html">Каталог</a></footer>
+    <script src="data/products.js?v=20260528"></script><script src="app.js?v=20260528"></script>
+  </body>
+</html>
+

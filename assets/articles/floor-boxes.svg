@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="506" viewBox="0 0 900 506" role="img" aria-label="Напольный лючок Nexus">
+  <rect width="900" height="506" fill="#f4f7fb"/>
+  <path d="M128 340h644l-78 66H206z" fill="#dce5ee"/>
+  <rect x="210" y="124" width="480" height="250" rx="24" fill="#ffffff" stroke="#cbd8e6" stroke-width="4"/>
+  <rect x="266" y="178" width="128" height="92" rx="12" fill="#087df0"/>
+  <rect x="424" y="178" width="210" height="92" rx="12" fill="#eef7ff" stroke="#d7e6f4"/>
+  <rect x="266" y="294" width="368" height="28" rx="14" fill="#10a796"/>
+  <text x="250" y="92" fill="#16202e" font-family="Inter, Arial, sans-serif" font-size="38" font-weight="850">Напольные лючки</text>
+</svg>
