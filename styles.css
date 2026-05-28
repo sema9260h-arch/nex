@@ -45,6 +45,29 @@ a {
   text-decoration: none;
 }
 
+:focus-visible {
+  outline: 3px solid rgba(8, 125, 240, 0.55);
+  outline-offset: 3px;
+}
+
+.skip-link {
+  position: fixed;
+  top: 12px;
+  left: 12px;
+  z-index: 100;
+  padding: 10px 14px;
+  border-radius: var(--radius);
+  color: #ffffff;
+  background: var(--blue);
+  font-weight: 850;
+  transform: translateY(-140%);
+  transition: transform 160ms ease;
+}
+
+.skip-link:focus {
+  transform: translateY(0);
+}
+
 img {
   display: block;
   max-width: 100%;
@@ -141,6 +164,11 @@ button {
   justify-content: center;
   min-width: 18px;
   margin-left: 6px;
+}
+
+.cart-count:empty,
+.cart-count.is-empty {
+  display: none;
 }
 
 .auth-panel {
@@ -259,12 +287,14 @@ button {
 
 .page-hero h1 {
   max-width: 860px;
+  margin-top: 18px;
   font-size: 52px;
   line-height: 1.02;
+  text-wrap: balance;
 }
 
 .page-hero p:not(.eyebrow) {
-  max-width: 760px;
+  max-width: 60ch;
   margin: 18px 0 0;
   color: rgba(255, 255, 255, 0.82);
   font-size: 18px;
@@ -659,6 +689,80 @@ h3 {
 .admin-grid article,
 .content-sections article {
   padding: 24px;
+}
+
+.article-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.article-card {
+  display: grid;
+  align-content: start;
+  gap: 14px;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: #ffffff;
+  box-shadow: 0 10px 24px rgba(17, 35, 58, 0.06);
+  transition:
+    border-color 160ms ease,
+    box-shadow 160ms ease,
+    transform 160ms ease;
+}
+
+.article-card:hover,
+.article-card:focus-visible {
+  border-color: rgba(8, 125, 240, 0.42);
+  box-shadow: 0 20px 44px rgba(17, 35, 58, 0.12);
+  transform: translateY(-3px);
+}
+
+.article-card img {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  background: #eef7ff;
+}
+
+.article-card :where(.eyebrow, h2, p, strong) {
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.article-card strong {
+  display: inline-flex;
+  margin-bottom: 22px;
+  color: var(--blue);
+}
+
+.article-body {
+  width: var(--container);
+  max-width: 860px;
+  margin: 0 auto;
+}
+
+.article-body article {
+  padding: 34px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: #ffffff;
+  box-shadow: 0 12px 30px rgba(17, 35, 58, 0.07);
+}
+
+.article-body p,
+.article-body li {
+  color: var(--muted);
+  font-size: 17px;
+  line-height: 1.75;
+}
+
+.article-body img {
+  width: 100%;
+  margin-bottom: 24px;
+  border-radius: var(--radius);
+  background: #eef7ff;
 }
 
 .benefit-grid p,
@@ -1663,6 +1767,7 @@ h1.detail-title {
   .document-grid,
   .admin-grid,
   .content-sections,
+  .article-grid,
   .ncoin-shop-grid,
   .ncoin-stats,
   .ncoin-admin-form,
@@ -1794,6 +1899,7 @@ h1.detail-title {
   .document-grid,
   .admin-grid,
   .content-sections,
+  .article-grid,
   .ncoin-shop-grid,
   .ncoin-stats,
   .ncoin-admin-form,

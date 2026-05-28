@@ -1,6 +1,29 @@
-server.out.log
-server.err.log
-outputs/
-qa-screenshots/
-node_modules/
-.env
+{
+  "valueRate": 1,
+  "validityMonths": 12,
+  "accrualBase": "goods_without_vat_delivery_services",
+  "thresholds": [
+    {
+      "from": 0,
+      "to": 14999999,
+      "rate": 0.005
+    },
+    {
+      "from": 15000000,
+      "to": 24999999,
+      "rate": 0.01
+    },
+    {
+      "from": 25000000,
+      "to": null,
+      "rate": 0.015
+    }
+  ],
+  "restrictions": {
+    "onlyPaidOrders": true,
+    "cancelOnReturn": true,
+    "noCashExchange": true,
+    "nonTransferable": true,
+    "blockRedemptionOnOverdueDebt": true
+  }
+}

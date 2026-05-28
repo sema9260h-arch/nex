@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 420" role="img" aria-labelledby="title desc">
+  <title id="title">Розетки и модули</title>
+  <desc id="desc">Силовые розетки и слаботочные модули формата 45x45.</desc>
+  <rect width="560" height="420" rx="28" fill="#f4fbfa"/>
+  <rect x="100" y="95" width="172" height="210" rx="30" fill="#ffffff" stroke="#d6e5ee" stroke-width="8"/>
+  <rect x="126" y="128" width="120" height="145" rx="20" fill="#eef7ff"/>
+  <circle cx="166" cy="195" r="13" fill="#19304a"/>
+  <circle cx="206" cy="195" r="13" fill="#19304a"/>
+  <rect x="160" y="230" width="52" height="12" rx="6" fill="#0b8cff"/>
+  <rect x="302" y="116" width="160" height="168" rx="26" fill="#19304a"/>
+  <rect x="326" y="146" width="112" height="32" rx="10" fill="#12b6a6"/>
+  <rect x="326" y="198" width="50" height="50" rx="10" fill="#eef7ff"/>
+  <rect x="388" y="198" width="50" height="50" rx="10" fill="#ffcf5a"/>
+  <path d="M146 324h268" stroke="#0b8cff" stroke-width="8" stroke-linecap="round" opacity=".42"/>
+</svg>

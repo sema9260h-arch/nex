@@ -1,23 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 420" role="img" aria-labelledby="title desc">
-  <title id="title">СКС-комплект</title>
-  <desc id="desc">Кабель, патч-панель и коммутационные модули.</desc>
-  <rect width="560" height="420" rx="28" fill="#eef7ff"/>
-  <rect x="58" y="72" width="318" height="112" rx="22" fill="#17283d"/>
-  <rect x="82" y="103" width="270" height="18" rx="9" fill="#7cc8ff"/>
-  <g fill="#eff8ff">
-    <rect x="88" y="140" width="18" height="18" rx="4"/>
-    <rect x="118" y="140" width="18" height="18" rx="4"/>
-    <rect x="148" y="140" width="18" height="18" rx="4"/>
-    <rect x="178" y="140" width="18" height="18" rx="4"/>
-    <rect x="208" y="140" width="18" height="18" rx="4"/>
-    <rect x="238" y="140" width="18" height="18" rx="4"/>
-    <rect x="268" y="140" width="18" height="18" rx="4"/>
-    <rect x="298" y="140" width="18" height="18" rx="4"/>
-  </g>
-  <path d="M138 270c0-54 45-98 100-98s100 44 100 98-45 98-100 98-100-44-100-98Z" fill="#0b8cff"/>
-  <path d="M180 270c0-31 26-57 58-57s58 26 58 57-26 57-58 57-58-26-58-57Z" fill="#eef7ff"/>
-  <path d="M238 270c85-3 137-39 187-91" stroke="#12b6a6" stroke-width="16" fill="none" stroke-linecap="round"/>
-  <path d="M238 292c86 16 149-3 204-48" stroke="#ffcf5a" stroke-width="12" fill="none" stroke-linecap="round"/>
-  <circle cx="435" cy="177" r="18" fill="#12b6a6"/>
-  <circle cx="456" cy="246" r="14" fill="#ffcf5a"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="506" viewBox="0 0 900 506" role="img" aria-label="Кабельные категории Cat.5e Cat.6 Cat.6A">
+  <rect width="900" height="506" fill="#eef7ff"/>
+  <rect x="80" y="86" width="740" height="334" rx="28" fill="#ffffff" stroke="#d7e6f4"/>
+  <path d="M142 330c120-116 210-116 330 0s210 116 330 0" fill="none" stroke="#087df0" stroke-width="18" stroke-linecap="round"/>
+  <path d="M142 258c120-116 210-116 330 0s210 116 330 0" fill="none" stroke="#10a796" stroke-width="18" stroke-linecap="round"/>
+  <path d="M142 186c120-116 210-116 330 0s210 116 330 0" fill="none" stroke="#f2b233" stroke-width="18" stroke-linecap="round"/>
+  <text x="132" y="382" fill="#16202e" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="800">Cat.5e / Cat.6 / Cat.6A</text>
 </svg>

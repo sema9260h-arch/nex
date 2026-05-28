@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Что такое LSZH - оболочка кабеля Nexus</title>
+    <meta name="description" content="LSZH - малодымная безгалогенная оболочка кабеля. Где она применяется и почему важна для коммерческих и общественных объектов." />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://nex-qdqs.onrender.com/articles/lszh.html" />
+    <meta property="og:title" content="Что такое LSZH - оболочка кабеля Nexus" />
+    <meta property="og:description" content="Краткое объяснение LSZH и сценариев применения в проектах СКС." />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://nex-qdqs.onrender.com/articles/lszh.html" />
+    <meta property="og:image" content="https://nex-qdqs.onrender.com/assets/articles/lszh.svg" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="icon" href="../favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="../styles.css?v=20260528" />
+    <script type="application/ld+json">
+      {"@context":"https://schema.org","@type":"Article","headline":"Что такое LSZH и когда нужна такая оболочка","author":{"@type":"Organization","name":"Nexus"},"publisher":{"@type":"Organization","name":"Nexus","logo":{"@type":"ImageObject","url":"https://nex-qdqs.onrender.com/favicon.svg"}},"image":"https://nex-qdqs.onrender.com/assets/articles/lszh.svg","mainEntityOfPage":"https://nex-qdqs.onrender.com/articles/lszh.html"}
+    </script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Перейти к содержимому</a>
+    <header class="site-header" id="top">
+      <a class="brand" href="../index.html" aria-label="Nexus - на главную"><span class="brand-mark" aria-hidden="true">N</span><span class="brand-text">Nexus</span></a>
+      <button class="icon-button menu-toggle" type="button" aria-label="Открыть меню" aria-expanded="false"><span></span><span></span><span></span></button>
+      <nav class="main-nav" aria-label="Основная навигация"><a href="../catalog.html">Каталог</a><a href="../about.html">О бренде</a><a href="../partners.html">Партнёрам</a><a href="../news.html">Статьи</a><a href="../contacts.html">Контакты</a></nav>
+      <a class="header-action" href="../request.html">Получить КП <span class="cart-count" aria-label="товаров в КП: 0"></span></a>
+    </header>
+    <main id="main-content">
+      <section class="page-hero"><p class="eyebrow">Материалы</p><h1>Что такое LSZH и когда нужна такая оболочка</h1><p>LSZH снижает дымообразование и не выделяет галогенов при воздействии огня, поэтому важна для объектов с требованиями к безопасности.</p></section>
+      <section class="section article-body">
+        <article>
+          <img src="../assets/articles/lszh.svg" alt="Кабель в оболочке LSZH для объекта" />
+          <p>LSZH расшифровывается как Low Smoke Zero Halogen. Такая оболочка применяется в кабельных линиях, где приоритетом являются безопасность людей и снижение рисков для оборудования.</p>
+          <p>В проектах СКС LSZH часто используют в офисных зданиях, образовательных учреждениях, торговых центрах, медицинских объектах и других пространствах с плотным присутствием людей.</p>
+          <ul>
+            <li>Для бюджетных технических зон может быть достаточно PVC.</li>
+            <li>Для общественных и коммерческих пространств чаще выбирают LSZH.</li>
+            <li>Финальное решение должно соответствовать проектной документации и требованиям объекта.</li>
+          </ul>
+        </article>
+      </section>
+    </main>
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+    <a class="whatsapp-float" href="https://wa.me/77011234567" target="_blank" rel="noopener" aria-label="Написать в WhatsApp">WA</a>
+    <footer class="site-footer"><p>Nexus © 2026. Материалы о СКС.</p><a href="../news.html">Все статьи</a></footer>
+    <script src="../data/products.js?v=20260528"></script>
+    <script src="../app.js?v=20260528"></script>
+  </body>
+</html>
