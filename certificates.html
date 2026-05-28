@@ -62,6 +62,7 @@ const els = {
 init();
 
 async function init() {
+  ensurePersistentNavigation();
   bindEvents();
   markActiveNav();
   await loadSession();
@@ -213,6 +214,49 @@ function renderAuthPanel() {
     `;
   }
   header.appendChild(panel);
+  renderMobileQuickNav(header);
+}
+
+function ensurePersistentNavigation() {
+  const nav = document.querySelector(".main-nav");
+  if (!nav) return;
+
+  const links = [...nav.querySelectorAll("a")];
+  const hasBonus = links.some((link) => link.getAttribute("href") === "bonus.html");
+  if (!hasBonus) {
+    const bonusLink = document.createElement("a");
+    bonusLink.href = "bonus.html";
+    bonusLink.textContent = "Ncoin";
+    const contactsLink = links.find((link) => link.getAttribute("href") === "contacts.html");
+    nav.insertBefore(bonusLink, contactsLink || null);
+  }
+}
+
+function renderMobileQuickNav(header) {
+  header.querySelector(".mobile-quick-nav")?.remove();
+
+  const quickNav = document.createElement("nav");
+  quickNav.className = "mobile-quick-nav";
+  quickNav.setAttribute("aria-label", "Быстрые действия");
+
+  const accountHref = currentUser ? (currentUser.role === "admin" ? "admin.html" : "account.html") : "login.html";
+  const accountLabel = currentUser ? "Кабинет" : "Вход";
+  const fourthHref = currentUser ? "bonus.html" : "partner-register.html";
+  const fourthLabel = currentUser ? "Ncoin" : "Партнёр";
+
+  quickNav.innerHTML = `
+    <a href="catalog.html">Каталог</a>
+    <a href="request.html">КП <span class="cart-count">${cartTotal()}</span></a>
+    <a href="${accountHref}">${accountLabel}</a>
+    <a href="${fourthHref}">${fourthLabel}</a>
+  `;
+
+  const current = location.pathname.split("/").pop() || "index.html";
+  quickNav.querySelectorAll("a").forEach((link) => {
+    if (link.getAttribute("href") === current) link.classList.add("is-active");
+  });
+
+  header.appendChild(quickNav);
 }
 
 function renderCategories() {
@@ -514,6 +558,10 @@ function cartEntries() {
   return Object.entries(cart)
     .map(([productId, qty]) => ({ product: getProduct(Number(productId)), qty: Number(qty) }))
     .filter((entry) => entry.product && entry.qty > 0);
+}
+
+function cartTotal() {
+  return cartEntries().reduce((sum, entry) => sum + entry.qty, 0);
 }
 
 async function submitLead(event) {

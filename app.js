@@ -1,11 +1,11 @@
-<!doctype html>
+﻿<!doctype html>
 <html lang="ru">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>О бренде Nexus</title>
     <meta name="description" content="Nexus - бренд СКС и инженерной инфраструктуры для коммерческих и инфраструктурных объектов." />
-    <link rel="stylesheet" href="styles.css?v=20260527" />
+    <link rel="stylesheet" href="styles.css?v=20260528" />
   </head>
   <body>
     <header class="site-header" id="top">
@@ -45,7 +45,7 @@
     <div class="toast" id="toast" role="status" aria-live="polite"></div>
     <a class="whatsapp-float" href="https://wa.me/77000000000" aria-label="Задать вопрос в WhatsApp">WA</a>
     <footer class="site-footer"><p>Nexus © 2026. Бренд СКС и инженерной инфраструктуры.</p><a href="catalog.html">Каталог</a></footer>
-    <script src="data/products.js?v=20260527"></script><script src="app.js?v=20260527"></script>
+    <script src="data/products.js?v=20260528"></script><script src="app.js?v=20260528"></script>
   </body>
 </html>
 

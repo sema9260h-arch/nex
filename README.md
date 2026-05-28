@@ -1,29 +1,31 @@
-# Nexus MVP
+﻿<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Партнёрам Nexus</title>
+    <meta name="description" content="Партнёрская страница бренда Nexus для дилеров, монтажных компаний и проектных организаций." />
+    <link rel="stylesheet" href="styles.css?v=20260528" />
+  </head>
+  <body>
+    <header class="site-header" id="top"><a class="brand" href="index.html"><span class="brand-mark">N</span><span>Nexus</span></a><button class="icon-button menu-toggle" type="button" aria-label="Открыть меню" aria-expanded="false"><span></span><span></span><span></span></button><nav class="main-nav"><a href="catalog.html">Каталог</a><a href="about.html">О бренде</a><a href="projects.html">Проекты</a><a href="certificates.html">Документы</a><a href="partners.html">Партнёрам</a><a href="contacts.html">Контакты</a></nav><a class="header-action" href="request.html">Получить КП <span class="cart-count">0</span></a></header>
+    <main>
+      <section class="page-hero"><p class="eyebrow">Партнёрам</p><h1>Развитие бренда Nexus вместе с проектным рынком</h1><p>Страница для дилеров, монтажных компаний, проектировщиков и интеграторов, которые работают с СКС и инженерной инфраструктурой.</p></section>
+      <section class="section partners">
+        <div class="section-heading"><p class="eyebrow">Заявка на партнёрство</p><h2>Оставьте контакт</h2><p>Расскажите о направлении деятельности, городе и интересующих линейках Nexus.</p></div>
+        <form class="partner-form mini-form" id="partnerForm">
+          <input name="company" placeholder="Компания" required />
+          <input name="name" placeholder="Имя" required />
+          <input name="phone" placeholder="Телефон" required />
+          <input name="email" placeholder="Email" type="email" />
+          <input name="city" placeholder="Город" />
+          <input name="direction" placeholder="Направление деятельности" />
+          <button class="button button-secondary" type="submit">Стать партнёром</button>
+        </form>
+      </section>
+    </main>
+    <div class="toast" id="toast" role="status" aria-live="polite"></div><a class="whatsapp-float" href="https://wa.me/77000000000">WA</a>
+    <footer class="site-footer"><p>Nexus © 2026. Партнёрская программа бренда.</p><a href="catalog.html">Каталог</a></footer>
+    <script src="data/products.js?v=20260528"></script><script src="app.js?v=20260528"></script>
+  </body>
+</html>
 
-Статический многостраничный MVP сайта Nexus с каталогом из `vfn.xlsx`.
-
-## Что внутри
-
-- Позиционирование Nexus как бренда СКС и инженерной инфраструктуры.
-- Отдельные страницы: главная, каталог, товар, заявка, о бренде, проекты, документы, доставка, партнёрам, статьи, контакты, кабинет и демо-админка.
-- Каталог из 38 позиций без публичного вывода цен и внутренних финансовых колонок.
-- Серверная авторизация партнёров: гость не видит цены/точные остатки, активный партнёр видит свою ценовую группу и складские остатки.
-- Админ-панель подтверждает партнёров на модерации.
-- Поиск и фильтры по категории, подкатегории, наличию и единице измерения.
-- Детальная карточка товара на отдельной странице, корзина-заявка и сохранение демо-заявок в `localStorage`.
-- Демо-блок админ-панели, структура под импорт Excel, заявки, документы и роли.
-- `robots.txt`, `sitemap.xml`, Brand/Product JSON-LD.
-
-## Запуск
-
-Запустите локальный сервер из папки проекта:
-
-```bash
-npm start
-```
-
-Демо-доступы:
-
-- Партнёр: `partner@nexus.kz` / `partner123`
-- Партнёр на модерации: `pending@nexus.kz` / `partner123`
-- Админ: `admin@nexus.kz` / `admin123`

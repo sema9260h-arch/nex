@@ -1,4 +1,4 @@
-<!doctype html>
+﻿<!doctype html>
 <html lang="ru">
   <head>
     <meta charset="utf-8" />
@@ -14,7 +14,7 @@
       content="Продуктовая линейка Nexus для СКС, рабочих мест, напольных коробок и модульной инфраструктуры объекта."
     />
     <meta property="og:type" content="website" />
-    <link rel="stylesheet" href="styles.css?v=20260527" />
+    <link rel="stylesheet" href="styles.css?v=20260528" />
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
@@ -199,8 +199,8 @@
       </nav>
     </footer>
 
-    <script src="data/products.js?v=20260527"></script>
-    <script src="app.js?v=20260527"></script>
+    <script src="data/products.js?v=20260528"></script>
+    <script src="app.js?v=20260528"></script>
   </body>
 </html>
 
